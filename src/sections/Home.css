@@ -1,0 +1,74 @@
+.home-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 2rem 60px;
+  background: var(--bg);
+}
+
+.home-photo-card {
+  background: transparent;
+  border-radius: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: none;
+  border: none;
+  width: auto;
+}
+
+.home-gif {
+  display: block;
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  transform: rotate(-2deg);
+  image-rendering: auto;
+  background: transparent;
+}
+
+.home-welcome {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 2.2rem;
+  color: var(--text-mid);
+  margin: 0 0 0.2rem;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: var(--radius-pill);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+  border: none;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(200, 150, 180, 0.25);
+}
+
+.btn-pink {
+  background: var(--pink);
+  color: #d45487;
+}
+
+.btn-lavender {
+  background: var(--lavender);
+  color: #7761ce;
+}

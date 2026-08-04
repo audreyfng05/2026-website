@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --pink:        #f9c8d4;
+  --pink-light:  #fde8ed;
+  --pink-dark:   #e8a0b0;
+  --lavender:    #d6ccf5;
+  --lavender-light: #ede9fc;
+  --white:       #ffffff;
+  --text-dark:   #5a4a5a;
+  --text-light:  #b8a8b8;
+
+  --font-body:    'Nunito', sans-serif;
+  --font-display: 'Butterfly Kids', cursive;
+
+  --radius-sm:  10px;
+  --radius-md:  18px;
+  --radius-lg:  28px;
+  --radius-pill: 999px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.butterfly-kids-regular {
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+.section {
+  min-height: 100vh;
+  padding: 100px 2rem 60px;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 2.7rem;
+  color: var(--text-dark);
+  margin-bottom: 0.4rem;
+}
+
+.section-subtitle {
+  color: var(--text-mid);
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.pill {
+  display: inline-block;
+  padding: 6px 18px;
+  border-radius: var(--radius-pill);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius-md);
+  padding: 1.5rem;
+  box-shadow: 0 2px 16px rgba(200, 150, 180, 0.1);
+  border: 1.5px solid var(--pink-light);
+}
