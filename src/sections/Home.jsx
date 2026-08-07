@@ -7,7 +7,7 @@ function Home() {
 
       <div className="home-photo-card" aria-label="bear gif">
         <img
-          src="/src/assets/Pixel Hearts Sticker.gif"
+          src="/assets/Pixel Hearts Sticker.gif"
           alt="bear gif"
           className="home-gif"
         />

@@ -15,7 +15,7 @@ function About() {
         <div className="card about-bio">
           <div className="bio-image-container">
             <img
-              src="/src/assets/profile.jpg"
+              src="/assets/profile.jpg"
               alt="Audrey"
               className="bio-image"
             />
