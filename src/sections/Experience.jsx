@@ -34,7 +34,7 @@ const experiences = [
     ],
   },
   {
-    role: 'Girls Who Code Tutor',
+    role: 'Teaching Assistant',
     org: 'Girls Who Code',
     date: 'Jan 2025 - Present',
     bullets: [
